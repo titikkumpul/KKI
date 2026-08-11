@@ -1,0 +1,42 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#111;background:#fff}
+.demo-banner{background:#222;color:#fff;text-align:center;font-size:12px;font-weight:700;padding:7px;letter-spacing:.4px}
+header{height:120px;display:flex;align-items:center;padding:18px 22px;background:#fff}
+.brand{display:flex;align-items:center;gap:10px}
+.logo-mark{width:58px;height:58px;border-radius:50%;background:#0b8b86;color:#fff;display:flex;align-items:center;justify-content:center;font-size:38px;font-weight:700}
+.brand-title{font-size:19px;line-height:20px;font-weight:800;color:#0b8b86}
+.nav{height:82px;background:#0b8984;display:flex;align-items:center;justify-content:center}
+.hamburger{background:none;border:0;width:55px;cursor:pointer}
+.hamburger span{display:block;height:4px;background:#fff;border-radius:4px;margin:7px 0}
+.container{max-width:820px;margin:0 auto;padding:42px 15px 70px}
+.profile-card{background:#fff}
+.photo-wrap{display:flex;justify-content:center;margin:0 0 52px}
+.photo-placeholder{width:290px;height:385px;border:2px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;background:#eee;color:#777;font-weight:800;font-size:24px;box-shadow:0 1px 5px #ccc}
+.data-list{width:100%}
+.row{display:grid;grid-template-columns:38% 30px 1fr;min-height:67px;border-bottom:1px solid #ddd;align-items:center;padding:8px 0;font-size:20px}
+.label{font-size:20px}
+.colon{text-align:center}
+.value{font-size:20px}
+.status{display:inline-block;background:#249b62;color:white;font-weight:700;border-radius:8px;padding:8px 14px;font-size:17px}
+.profile-btn{border:0;background:#15988e;color:#fff;border-radius:7px;padding:12px 17px;font-size:17px;cursor:pointer}
+.notice{margin-top:25px;background:#fff4d6;border-left:5px solid #d59a00;padding:14px;font-size:14px;line-height:1.5}
+footer{background:#0b8984;color:#fff;text-align:center;padding:35px 18px 0}
+footer h2{font-size:27px;margin:0 0 22px}
+.socials{display:flex;justify-content:center;gap:18px;margin-bottom:38px}
+.socials span{border:1px solid rgba(255,255,255,.7);border-radius:50%;width:52px;height:52px;display:flex;align-items:center;justify-content:center;font-size:24px}
+footer p{font-size:17px;line-height:1.6}
+.copyright{margin:25px -18px 0;padding:18px;border-top:1px solid rgba(255,255,255,.2);font-size:14px}
+@media(max-width:600px){
+  header{height:105px;padding:15px}
+  .brand-title{font-size:16px;line-height:17px}
+  .logo-mark{width:48px;height:48px;font-size:30px}
+  .nav{height:68px}
+  .container{padding:40px 15px 55px}
+  .photo-wrap{margin-bottom:42px}
+  .photo-placeholder{width:292px;height:380px}
+  .row{grid-template-columns:40% 20px 1fr;min-height:63px}
+  .label,.value{font-size:17px}
+  .status{font-size:14px;padding:7px 10px}
+  .profile-btn{font-size:15px;padding:10px 13px}
+  footer h2{font-size:25px}
+}
