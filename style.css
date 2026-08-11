@@ -180,3 +180,32 @@ h1 {
   object-fit: cover;
   display: block;
 }
+.socials {
+    display: flex;
+    gap: 18px;
+    margin: 20px 0 35px;
+}
+
+.social-icon {
+    width: 55px;
+    height: 55px;
+    border: 2px solid rgba(255,255,255,0.45);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-icon svg {
+    width: 28px;
+    height: 28px;
+    fill: none;
+    stroke: white;
+    stroke-width: 1.8;
+}
+
+.social-icon svg polygon {
+    fill: white;
+    stroke: none;
+}
