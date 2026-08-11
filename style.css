@@ -145,3 +145,22 @@ h1 {
   }
 
 }
+.brand {
+  display: flex;
+  align-items: center;
+  padding: 18px 25px;
+  background: #fff;
+}
+
+.kki-logo {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.demo-label {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #777;
+  font-weight: bold;
+}
